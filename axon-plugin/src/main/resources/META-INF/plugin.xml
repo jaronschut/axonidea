@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin version="2" url="https://github.com/jaronschut/axonidea">
+  <id>Axon Plugin</id>
+  <name>Axon Plugin</name>
+  <vendor url="https://github.com/jaronschut/axonidea" email="jaron.schut@gmail.com">Jaron Schut</vendor>
+  <!--This line will be changed by maven plugin-->
+  <version>100</version>
+  <!--This line will be changed by maven plugin-->
+  <idea-version since-build="93.13"/>
+
+  <description><![CDATA[
+    A plugin that adds first-class support for AxonFramework
+    ]]>
+  </description>
+  <category>Tools Integration</category>
+
+  <application-components>
+    <component>
+      <implementation-class>org.innovatingconcepts.intellij.plugin.axon.AxonLoader</implementation-class>
+    </component>
+  </application-components>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <change-notes><![CDATA[
+		<ul>
+			<li>0.1
+				<ol>
+					<li>Initial Release for IDEA >= 12.0</li>
+				</ol>
+			</li>
+		</ul>
+	]]>
+  </change-notes>
+</idea-plugin>
